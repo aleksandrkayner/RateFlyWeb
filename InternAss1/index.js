@@ -55,17 +55,7 @@ function getData() {
   //   }
   // );
 
-  // const options = {
-  //   hostname: `https://${API_KEY}:${password}@aleksandrkayner.myshopify.com/admin/api/2020-07/products.json`,
-  //   port: 443,
-  //   path: "/admin/api/2020-07/products.json",
-  //   method: "GET",
-  //   headers: {
-  //     Accept: "application/json",
-  //     "Content-Type": "application/json",
-  //     Authorization: auth
-  //   }
-  // };
+  //
 
   const options = {
     hostname: `https://${API_KEY}:${password}@aleksandrkayner.myshopify.com/admin/api/2020-07/products.json`, // your host name
