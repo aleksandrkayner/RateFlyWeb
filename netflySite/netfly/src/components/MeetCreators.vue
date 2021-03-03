@@ -25,7 +25,7 @@
         <a href="https://www.google.com">Link to whatever</a>
       </div>
       <div class="person">
-        <h3>Thank Too</h3>
+        <h3>Thanks Too</h3>
         <span>WeScreen LLC Team</span>
         <a href="https://www.google.com">Link to whatever</a>
       </div>

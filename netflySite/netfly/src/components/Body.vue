@@ -128,14 +128,16 @@ export default {
   justify-content: center;
 
   position: relative;
-  height: 40rem;
+  height: 80vh;
   bottom: -5rem;
-  background-color: beige;
+  background-image: url("../assets/netflix2.png");
+  background-repeat: no-repeat;
   color: black;
 }
 .headerLeft {
   position: relative;
   top: 11rem;
+  color: red;
 }
 hr {
   position: absolute;

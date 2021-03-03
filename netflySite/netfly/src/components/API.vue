@@ -18,6 +18,7 @@
     </div>
     <div class="image">
       <img src="../assets/logo.png" />
+      <div class="abstruction2"></div>
     </div>
   </div>
 </template>
@@ -37,7 +38,7 @@ export default {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-
+  z-index: 0;
   flex-shrink: inherit;
   align-items: center;
   margin-top: 2rem;
@@ -52,6 +53,9 @@ export default {
   width: 50%;
 }
 .image {
+  position: relative;
+  bottom: -3rem;
+  z-index: 0;
   width: 50%;
 }
 .gitLicense {
@@ -82,6 +86,20 @@ export default {
   width: 5rem;
   height: 7rem;
   padding-bottom: 3rem;
+}
+.abstruction2 {
+  clip-path: polygon(100% 0%, 39% 29%, 0% 45%, 100% 100%);
+  background-color: red;
+  position: relative;
+  right: -35rem;
+  bottom: -10rem;
+
+  padding: 0;
+  margin: 0;
+  z-index: 100;
+
+  width: 7rem;
+  height: 9rem;
 }
 @media (max-width: 1024px) {
   .API {
