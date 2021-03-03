@@ -53,10 +53,19 @@ export default {
   width: 50%;
 }
 .image {
-  position: relative;
-  bottom: -3rem;
-  z-index: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 50%;
+  height: auto;
+
+  /*position: relative;
+  bottom: -3rem;
+  z-index: 0*/
+}
+.image > img {
+  position: absolute;
 }
 .gitLicense {
   display: flex;
@@ -74,6 +83,7 @@ export default {
   text-decoration: none;
   color: black;
 }
+
 .abstruction {
   clip-path: polygon(100% 0%, 39% 29%, 0% 45%, 100% 100%);
   background-color: red;
@@ -90,16 +100,14 @@ export default {
 .abstruction2 {
   clip-path: polygon(100% 0%, 39% 29%, 0% 45%, 100% 100%);
   background-color: red;
-  position: relative;
-  right: -35rem;
-  bottom: -10rem;
-
+  align-self: flex-end;
   padding: 0;
   margin: 0;
-  z-index: 100;
-
+  position: relative;
+  bottom: -18.55rem;
   width: 7rem;
   height: 9rem;
+  z-index: 9;
 }
 @media (max-width: 1024px) {
   .API {
