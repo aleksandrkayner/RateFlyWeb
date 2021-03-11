@@ -13,8 +13,6 @@
         </a>
         <span>MIT License</span>
       </div>
-      <h1></h1>
-      <h1></h1>
     </div>
     <div class="image">
       <img src="../assets/logo.png" />
@@ -31,6 +29,7 @@ export default {
 
 <style>
 .API {
+  clip-path: polygon(100% 100%, 0 100%, 0 15%, 13% 0, 100% 0);
   background-color: black;
   color: aliceblue;
   width: 100%;
@@ -38,10 +37,11 @@ export default {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  position: relative;
   z-index: 0;
   flex-shrink: inherit;
   align-items: center;
-  margin-top: 2rem;
+  margin-top: -2rem;
 }
 .text {
   display: flex;

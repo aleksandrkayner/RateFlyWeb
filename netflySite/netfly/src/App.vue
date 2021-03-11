@@ -1,23 +1,23 @@
 <template>
-  <div>
-    <NavBar msg="Aleksandr Project" />
+  <div class="main">
     <Body />
   </div>
 </template>
 
 <script>
-import NavBar from "./components/NavBar";
 import Body from "./components/Body";
 export default {
   name: "App",
   components: {
-    NavBar,
     Body
   }
 };
 </script>
 
 <style>
+.main {
+  margin-top: 0;
+}
 .logo {
   width: 5rem;
 }
@@ -27,6 +27,5 @@ export default {
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
   color: #2c3e50;
-  margin-top: 60px;
 }
 </style>
